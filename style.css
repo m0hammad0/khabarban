@@ -1,0 +1,64 @@
+@font-face {
+    font-family: font1;
+    src: url("font1.woff2") format("woff2");
+}
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 10px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 1px rgb(212 212 212);
+}
+.header-span {
+    font-family: font1;
+    color: #9e0000;
+    font-size: 30px;
+    float: right;
+    margin: 17px 20px;
+}
+.khabarha {
+    background-color: #9e0000;
+    margin: 20px 10px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 1px rgb(212 212 212);
+    padding: 5px;
+}
+.khabarha-span1 {
+    font-family: font1;
+    color: black;
+    float: right;
+    margin: 3px 60px;
+    font-size: 20px;
+}
+.not1 {
+    background-color: #9e0000;
+    height: 1px;
+    margin: 20px;
+}
+.khabar {
+    background: #f5f5f5;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 3px 1px;
+}
+.khabar-div1, .khabar-div2 {
+    direction: rtl;
+}
+.khabar-span1 {
+    font-family: font1;
+    margin: 0 20px;
+    font-size: 17px;
+}
+.khabar-span2 {
+    font-family: font1;
+    font-size: 14px;
+    color: #484848;
+    margin: 10px 15px;
+}
+.khabar-span3 {
+    margin: 16px;
+    font-family: initial;
+    color: #9f9f9f;
+    font-size: 12px;
+    margin-left: 10px;
+}
