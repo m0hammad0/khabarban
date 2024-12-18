@@ -10,14 +10,13 @@ header {
     box-shadow: 0px 0px 10px 1px rgb(212 212 212);
     display: flex;
     align-items: center;
-    justify-content: start;
 }
 .header-span {
     font-family: font1;
     color: #9e0000;
     font-size: 25px;
-    /*float: right;*/
-    /*margin: 12px 20px;*/
+    float: right;
+    margin: 0px 22px;
 }
 .khabarha {
     background-color: #9e0000;
@@ -36,7 +35,7 @@ header {
 .not1 {
     background-color: #9e0000;
     height: 1px;
-    margin: 40px;
+    margin: 42px;
 }
 .khabar {
     background: #f5f5f5;
@@ -63,5 +62,6 @@ header {
     font-family: initial;
     color: #9f9f9f;
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
 }
