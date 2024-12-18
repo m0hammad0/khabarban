@@ -10,6 +10,7 @@ header {
     box-shadow: 0px 0px 10px 1px rgb(212 212 212);
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 .header-span {
     font-family: font1;
