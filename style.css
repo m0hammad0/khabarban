@@ -27,7 +27,7 @@ header {
     font-family: font1;
     color: black;
     float: right;
-    margin: 3px 50px;
+    margin: 3px 10px;
     font-size: 20px;
     color: white;
 }
@@ -37,6 +37,7 @@ header {
     float: right;
     margin: 3px 10px;
     font-size: 15px;
+    color: #014f86;
 }
 .not1 {
     background-color: #9e0000;
@@ -70,4 +71,7 @@ header {
     font-size: 12px;
     margin-left: -10px;
     margin-bottom: 20px;
+}
+.khabar-div1 {
+    mergin-bottom: 10px;
 }
