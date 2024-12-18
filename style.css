@@ -29,7 +29,6 @@ header {
     float: right;
     margin: 3px 10px;
     font-size: 20px;
-    color: white;
 }
 .khabarha-span2 {
     font-family: font1;
@@ -37,7 +36,7 @@ header {
     float: right;
     margin: 3px 10px;
     font-size: 15px;
-    color: #014f86;
+    color: blue;
 }
 .not1 {
     background-color: #9e0000;
