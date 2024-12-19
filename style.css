@@ -1,0 +1,132 @@
+@font-face {
+    font-family: font1;
+    src: url("font1.woff2") format("woff2");
+}
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 5px 10px;
+    height: 60px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 1px rgb(212 212 212);
+}
+.header-span1 {
+    font-family: font1;
+    color: #9e0000;
+    font-size: 25px;
+    float: right;
+    margin: 10px 22px;
+}
+.header-login {
+    background: #9e0000;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    float: left;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-login-a {
+    text-decoration: none;
+}
+.header-login-span {
+    color: #ffffff;
+    font-family: font1;
+    font-size: 14px;
+}
+.khabarha-jadid {
+    background: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(212 212 212);
+    padding: 2px;
+    border-right: 5px solid #9e0000;
+}
+.khabarha-jadid-span1 {
+    font-family: font1;
+    color: black;
+    float: right;
+    margin: 2px 40px;
+    font-size: 20px;
+}
+.not1 {
+    background-color: white;
+    height: 1px;
+    margin: 20px;
+}
+.khabar-jadid {
+    background: #f5f5f5;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 3px 20px;
+}
+.khabar-jadid-div1, .khabar-jadid-div2 {
+    margin-top: 8px;
+direction: rtl;
+}
+.khabar-jadid-span1 {
+    font-family: font1;
+    margin: 10px 1px;
+    font-size: 17px;
+}
+.khabar-jadid-span2 {
+    font-family: font1;
+    font-size: 14px;
+    color: #484848;
+    margin: 10px 0px;
+}
+.khabar-jadid-span3 {
+    margin: 16px 0;
+    font-family: initial;
+    color: #9f9f9f;
+    font-size: 12px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+.khabarha-jadid-span2 {
+    font-family: font1;
+    float: right;
+    margin: -10px 8px;
+    font-size: 15px;
+    color: #0077ff;
+}
+.khabarha-fori {
+    background: white;
+    border: 2px solid #9e0000;
+    width: 96%;
+    height: 28px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 8px;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+}
+.khabarha-fori-span1 {
+    font-family: font1;
+    margin-right: 8px;
+    color: #9e0000;
+    white-space: nowrap;
+}
+.khabarha-fori-div1 {
+    width: 100%;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left:  5px;
+}
+.khabarha-fori-span2 {
+    direction: rtl;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+    font-family: font1;
+}
+@keyframes scrollText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
